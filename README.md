@@ -25,3 +25,13 @@ Compatibility
 * Internet Explorer 8 (Via IE9 in IE8 compatibility mode. No rounded corners, no shadows)
 * Internet Explorer 7 (Via IE9 in IE7 compatibility mode. No rounded corners, no shadows)
 * Opera 10.53
+
+YUI Requirements
+----------------
+* Dom
+* Event
+* Connection Core
+* JSON
+* Selector
+* Animation (if animate set to tru)
+
