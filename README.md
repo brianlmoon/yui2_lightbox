@@ -33,5 +33,5 @@ YUI Requirements
 * Connection Core
 * JSON
 * Selector
-* Animation (if animate set to tru)
+* Animation (if animate set to true)
 
