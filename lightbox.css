@@ -1,0 +1,32 @@
+/* Required styles */
+.dn-lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.lb-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: .25;
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    /* IE7 */
+    filter: alpha(opacity=25);
+}
+.lb-bx {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.lb-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
