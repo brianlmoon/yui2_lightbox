@@ -79,6 +79,11 @@ DN.Lightbox = function (cfg) {
     this.kl = null;
 
     /**
+     * Custom event to be fired on close
+     */
+    this.onClose = new YAHOO.util.CustomEvent("onClose");
+
+    /**
      * Shows the lightbox
      */
     this.show = function(e) {
@@ -299,6 +304,7 @@ DN.Lightbox = function (cfg) {
                         DN.selector(".lb-bx", this.element, true),
                         "opacity", 1);
                     this.element.style.display="none";
+                    this.onClose.fire();
                 },
                 this,
                 true
